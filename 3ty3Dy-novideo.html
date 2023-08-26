@@ -1400,6 +1400,7 @@ setTimeout(()=>{
     height: 100vh;
     object-fit: cover;
     top: 0px;
+    filter: brightness(0.5);
     }
 
 .bodytext{
@@ -1417,9 +1418,9 @@ setTimeout(()=>{
 }
 
     #demogl{
-        filter: brightness(1) blur(10px);
-        cursor: default;
-        mix-blend-mode: difference;
+        filter: brightness(2) blur(5px) hue-rotate(-201deg);
+    cursor: default;
+    mix-blend-mode: screen;
     z-index: 999;
     position: absolute;
     /* display:none; */
